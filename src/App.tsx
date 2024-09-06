@@ -1,7 +1,8 @@
 import './App.css';
+import Board from './Board';
 
 function App() {
-  return <h1>React Typescript starter Project</h1>;
+  return <Board rightWord="ready" />;
 }
 
 export default App;
